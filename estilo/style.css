@@ -6,19 +6,32 @@ body{
     color: white;
     max-width: 1200px;
     margin: 0 auto;
-    padding:10px;
+    padding: 20px;
 }
 
+/* HEADER */
 header{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-#titulo{
-    flex-direction: column;
-    line-height: 0.5;
+/* TÍTULO */
+.titulo h1 span{
+    display: block;
+}
+
+.titulo{
+    line-height: 1.1;
+}
+
+h1{
+    font-size: 40px;
+}
+
+/* MENU */
+nav ul{
+    list-style: none;
 }
 
 li{
@@ -29,39 +42,46 @@ li{
 a{
     text-decoration: none;
     color: white;
+    transition: 0.3s;
 }
 
 a:hover{
     color: rgb(132, 14, 201);
-    transition: 0.3s all;
 }
 
-#btn{
+/* BOTÃO */
+.btn{
     border: 2px solid rgb(132, 14, 201);
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 15px;
 }
 
-#btn:hover{
-    background-color:rgb(132, 14, 201);
-    color: rgb(253, 253, 253);
-    transition: 0.3s all;
+.btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
 }
 
-h1{
-    font-size: 40px;
-}
-
-main{
+/* MAIN */
+.hero{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 50px;
+    gap: 40px;
 }
 
-h2 {
+/* TEXTO */
+.conteudo{
+    max-width: 500px;
+}
+
+h2{
     font-size: 55px;
-    line-height: 1.0;
-    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+}
+
+h2 span{
+    display: block;
 }
 
 h2 span:first-child{
@@ -69,38 +89,41 @@ h2 span:first-child{
 }
 
 p{
-    line-height: 20px;
-    max-width: 500px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin-top: 15px;
 }
 
-img{
-    width: 580px; ;
-}
-
+/* FORM */
 form{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 90%;
-}
-
-form [type="submit"]{
-    width: 50%;
-    background-color: rgb(132, 14, 201);
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-form [type="submit"]:hover{
-    cursor: pointer;
+    margin-top: 20px;
 }
 
 input{
-    padding: 10px;
-    border-radius: 15px;
+    padding: 12px;
+    border-radius: 10px;
     border: none;
+}
+
+button{
+    width: 60%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+/* IMAGEM */
+.imagem img{
+    width: 500px;
+    max-width: 100%;
 }
