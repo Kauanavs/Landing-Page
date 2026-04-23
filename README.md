@@ -1,8 +1,8 @@
 # 🎯 Creative Landing Page
 
-Landing page moderna com foco em **marketing criativo e conversão de leads**.
+Landing page moderna com foco em **design, estrutura e experiência visual**, desenvolvida utilizando HTML e CSS.
 
-O projeto apresenta um design elegante com tema dark e elementos visuais em destaque, ideal para empresas ou profissionais que desejam captar clientes através de uma interface atrativa.
+O projeto apresenta uma interface elegante com tema dark e elementos visuais voltados para marketing e conversão.
 
 ---
 
@@ -10,7 +10,6 @@ O projeto apresenta um design elegante com tema dark e elementos visuais em dest
 
 - HTML5
 - CSS3
-- JavaScript
 
 ---
 
@@ -18,30 +17,28 @@ O projeto apresenta um design elegante com tema dark e elementos visuais em dest
 
 Criar uma landing page com foco em:
 
-- Captura de leads
-- Design moderno e profissional
+- Estrutura bem organizada
+- Design moderno
 - Experiência do usuário
-- Estrutura clara e objetiva
+- Layout responsivo
 
 ---
 
 ## ✨ Funcionalidades
 
-- Seção principal com CTA (Call To Action)
-- Formulário de cadastro (nome e e-mail)
-- Navegação simples
+- Seção principal com chamada para ação (CTA)
+- Formulário de captura (nome e e-mail)
 - Layout responsivo
-- Estrutura otimizada para conversão
+- Navegação simples
 
 ---
 
 ## 🎨 Destaques de UI/UX
 
 - Tema dark com gradiente roxo
-- Hierarquia visual bem definida
 - Tipografia moderna
-- Interface limpa e intuitiva
-- Foco direto na ação do usuário
+- Interface limpa e organizada
+- Hierarquia visual bem definida
 
 ---
 
@@ -49,12 +46,24 @@ Criar uma landing page com foco em:
 
 ![Preview do projeto](./assets/preview.png)
 
----
-
-## 🔗 Acesse o projeto
-
-(Coloque aqui o link do deploy)
 
 ---
 
-## 📂 Estrutura do projeto
+## 📌 Autor
+
+Kauan  
+
+- GitHub: https://github.com/Kauanavs  
+- LinkedIn: https://www.linkedin.com/in/kauanlas/
+
+---
+
+## 💡 Status
+
+✔️ Projeto finalizado (front-end estático)
+
+🚀 Possíveis melhorias:
+- Adicionar interações com JavaScript
+- Validação de formulário
+- Animações mais avançadas
+
